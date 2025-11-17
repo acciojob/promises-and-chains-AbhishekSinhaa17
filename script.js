@@ -12,13 +12,13 @@
 
       // Validate presence of both fields
       if (!name || ageVal === '' || ageVal === null) {
-        alert('Please enter valid details.');
+        alert('Please enter valid details');
         return;
       }
 
       const age = Number(ageVal);
       if (Number.isNaN(age)) {
-        alert('Please enter valid details.');
+        alert('Please enter valid details');
         return;
       }
 
